@@ -10,7 +10,8 @@ void setup()
 
 void loop() 
 {
-  //If there is no light then the sensor value will be 1 else the value will be 0
+  //If there is no
+  //  light then the sensor value will be 1 else the value will be 0
   int sensorValue = digitalRead(SENSOR_PIN);
   //Serial.println(sensorValue);
   //Its dark
